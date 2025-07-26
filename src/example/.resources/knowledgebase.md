@@ -15,6 +15,6 @@ When creating sensitive code use ...
 - - ...
 
 ## Global Development Rules
-
+- All code should be in src/
 
 ## File type 1 format rules

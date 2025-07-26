@@ -1,6 +1,6 @@
 [project]
 name = "requirementsengineering"
-version = "0.1.0"
+version = "0.1.2"
 description = ""
 authors = [
     {name = "Oce4nM4n",email = "ayushmansihag@gmail.com"}
@@ -13,6 +13,8 @@ dependencies = [
 [tool.poetry]
 packages = [{include = "requirementsengineering", from = "src"}]
 
+[tool.poetry.scripts]
+requirementsengineering = "requirementsengineering.main:main"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
